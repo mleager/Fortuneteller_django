@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+        body,
+        h1 {
+            font-family: "Raleway", sans-serif
+        }
+
+        body,
+        html {
+            height: 100%
+        }
+
+        .bgimg {
+            background-image: url('https://c4.wallpaperflare.com/wallpaper/218/143/809/nature-snow-trees-mountains-wallpaper-preview.jpg');
+            min-height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+
+        h1.up {
+            position: relative;
+            bottom: 80px;
+            text-align: center;
+        }
+
+        p.up {
+            position: relative;
+            bottom: -150px;
+            right: -15px;
+            text-align: center;
+        }
+
+        hr.border-height {
+            position: relative;
+            bottom: -250px;
+            right: -15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+        <div class="w3-display-topleft w3-padding-large w3-xlarge">
+            Mark's Completely and Defintely Original Idea
+        </div>
+        <div class="w3-display-middle">
+            <h1 class="w3-jumbo up">Your Fortune Awaits:</h1>
+            <hr class="w3-border-grey border-height" style="margin:auto;width:60%">
+            <br>
+            <br>
+            <p class="w3-large w3-center up">{{ fortune }}</p>
+        </div>
+        <div class="w3-display-bottomleft w3-padding-large">
+            Powered by Django and Docker<br>CSS provided by <a href="https://www.w3schools.com/w3css/default.asp"
+                target="_blank">w3.css</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
